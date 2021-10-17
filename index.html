@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowdControl</title>
+
+    <!-- Open graph -->
+    <meta name="description" content="👋 Meet CrowdControl"/>
+    <meta content="#da4552" name="theme-color">
+
+    <!-- Particles js and Typed js -->
+    <script src="./particles.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- Animate.css -->
+    <!-- <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+
+    <!-- Icons -->
+    <!-- <link rel="icon" href="./favicon.ico"> -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+   
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">CrowdControl</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="lmaothisisafakelinknoob" class="navbar__links" onclick="return false" id="invite-page">Invite</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="https://discord.gg/TmVgN2Q6m5" class="navbar__links" id="server-page">Support Server</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#stack" class="navbar__links" id="stack-page">Development</a>
+                </li>
+                <li class="navbar__item-imp">
+                    <a href="/docs" class="navbar__links" id="stack-page">Docs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Landing -->
+    <div class="container">
+        <div id="particles-js"></div>
+        <section class="home__section" id="home">  
+            
+            <h1 id="main-name">
+                This is CrowdControl
+            </h1>
+            <p>
+                We believe in <span class='typing'></span>. But most importantly, our users
+            </p>
+
+            <div class="social__icons">
+                <a href=https://discord.gg/TmVgN2Q6m5 class="icons" target="_blank"><i class="fab fa-discord fa-3x"></i></a>
+                <a href=https://github.com/Codeize class="icons" target="_blank"> <i class="fab fa-github fa-3x"></i></a>
+            </div>
+        </section>
+        
+    </div>
+
+    <!-- About -->
+    <section class="about__section" id="about"> 
+        <div class="about__container">
+            <div class="about__card">
+                <h1>
+                    <i class="fas fa-paint-brush"></i>
+                    Alright, so what is this?
+                </h1>
+                <br>
+                <p> Meet CrowdControl! 👋 <p> <br>
+                <p>
+                    The purpose of CrowdControl is to provide a simple, yet powerful auto moderation and moderation gateway for servers of all sizes<br><br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline__section" id="projects">
+        <div class="toggle__bar">
+            <button class="toggle__btn  active__btn" id="prj__btn"><h1>Timeline</h1></button>
+        </div>
+
+        <div class="timeline__container">
+            <div class="timeline" id="timeline">
+                <ul>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">Aug 31st, 2021</h3>
+                            <h1><a href='https://github.com/Codeize' target="_blank">Began Development</a></h1>
+                            <p> This is when I (Codeize), came up with the concept for CrowdControl. I acted on it almost immediately.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">Sept 2nd, 2021</h3>
+                            <h1><a href='https://github.com/Codeize' target="_blank">Launched Site</a></h1>
+                            <p> Here is when I launched this very website. <a href="https://discord.gg/TmVgN2Q6m5">Let me know what you think!</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">???</h3>
+                            <h1><a href='https://github.com/Codeize' target="_blank">Stay tuned!</a></h1>
+                            <p> This is only scratching the surface of what I have to offer for CrowdControl. The best way to stay updated is to <a href="https://discord.gg/TmVgN2Q6m5">join my server</a>!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+  </section>
+
+    <!-- Stack -->
+    <section class="tech__section" id="stack">
+       <div class="tech__container">
+           <h1>CrowdControl Tech Stack</h1>
+            <ul class="tech__icons">
+
+                <li class="icon__item"><i class="fab fa-discord"></i></i></li>
+                <li class="icon__item"><i class="devicon-javascript-plain"></i></li>
+            </ul>
+       </div>
+    <div class="tech__container">
+        <h1>Website Stack</h1>
+        <ul class="tech__icons">
+            <li class="icon__item"><i class="devicon-javascript-plain"></i></li>
+            <li class="icon__item"><i class="devicon-css3-plain"></i></li>
+            <li class="icon__item"><i class="devicon-html5-plain"></i></li>
+            <li class="icon__item"><i class="fas fa-shapes"></i></li>
+        </ul>
+    </div>
+    </section>
+
+    <div class="tech__container">
+        <h1>Databases</h1>
+        <ul class="tech__icons">
+            <li class="icon__item"><i class="devicon-mongodb-plain"></i></li>
+            <li class="icon__item"><i class="devicon-redis-plain"></i></li>
+        </ul>
+    </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="sticky__footer">
+        <p>Made with <span class="heart">&#x2764;</span> by <a href="https://github.com/Codeize">Codeize</a></p> 
+    </footer>
+
+       <script>
+            // particle.js config
+            /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+            particlesJS.load('particles-js', 'particlesjs-config.json', () => {
+                console.log('Particles.js config loaded!');
+            });
+       </script>
+    <script src="./main.js"></script>
+</body>
+</html>
